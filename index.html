@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Form Heading -->
+
+    <section class="heading">
+      <h1>Survey Form</h1>
+    </section>
+
+    <!-- Form Body -->
+
+    <section class="form">
+      <p class="form__title">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet?
+      </p>
+
+      <form>
+        <div class="form__input">
+          <label for="name">*Name</label>
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="Jane Doe"
+            name="name"
+          />
+        </div>
+        <div class="form__input">
+          <label for="email">*Email</label>
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="JaneDoe@gmail.com"
+            name="email"
+          />
+        </div>
+        <div class="form__input">
+          <label for="name">*Age</label>
+          <input type="number" id="name" required placeholder="22" name="age" />
+        </div>
+        <div class="form__input">
+          <label for="role"
+            >Which option best describes your current role?</label
+          >
+          <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="working">Working</option>
+          </select>
+        </div>
+        <div class="form__input">
+          <p>
+            How likely is it that you would recommend Freecodecamp to a friend?
+          </p>
+
+          <div class="form__input--right">
+            <div class="form__input2">
+              <input
+                type="radio"
+                id="Definitely"
+                name="rec"
+                value="Definitely"
+              />
+              <label for="definitely">Definitely</label>
+            </div>
+            <div class="form__input2">
+              <input type="radio" id="maybe" name="rec" value="Definitely" />
+              <label for="maybe">Maybe</label>
+            </div>
+
+            <div class="form__input2">
+              <input type="radio" id="Not sure" name="rec" value="Definitely" />
+              <label for="not sure">Not sure</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form__input">
+          <label for="role">What do you like most in FCC?</label>
+          <select name="role" id="role">
+            <option value="select an an option">Select an option</option>
+            <option value="teachers">Teachers</option>
+            <option value="Community">Community</option>
+            <option value="IDE">IDE</option>
+          </select>
+        </div>
+
+        <div class="form__input">
+          <p>
+            Things that should be improved in the future <br />:(check all that
+            apply)
+          </p>
+
+          <div class="form__input--right">
+            <div class="form__input2">
+              <input type="checkbox" id="FE" name="rec1" value="Front-end" />
+              <label for="FE">Front-end projects</label>
+            </div>
+
+            <div class="form__input2">
+              <input type="checkbox" id="BE" name="rec2" value="Back-end" />
+              <label for="BE">Back-end projects</label>
+            </div>
+
+            <div class="form__input2">
+              <input type="checkbox" id="DV" name="rec3" value="Data-V" />
+              <label for="DV">Data Visualization</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
