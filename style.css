@@ -65,3 +65,10 @@
 .form__input p {
   text-align: right;
 }
+
+
+@media (max-width: 500px){
+    .form{
+        padding: 1rem;
+    }
+}
