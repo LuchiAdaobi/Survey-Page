@@ -65,7 +65,11 @@
 .form__input p {
   text-align: right;
 }
-
+.button{
+  background-color: aqua;
+  color: #fff;
+  border: 1px solid salmon;
+}
 
 @media (max-width: 500px){
     .form{
