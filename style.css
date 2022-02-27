@@ -47,6 +47,7 @@
 .form__input #role {
   width: fit-content;
   padding: 0.2rem;
+
 }
 .form__input label {
   justify-self: end;
@@ -65,10 +66,19 @@
 .form__input p {
   text-align: right;
 }
+/* learning git branches and merge */
 .button{
   background-color: aqua;
   color: #fff;
   border: 1px solid salmon;
+}
+/* using this to learn git */
+.hero-section{
+  background: crimson;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 500px){
